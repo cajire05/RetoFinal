@@ -1,0 +1,25 @@
+{
+  "ruta": "datos/politicas.md",
+  "fragmentos": {
+    "POL-MFA-01": {
+      "funcion": "requisito_mfa",
+      "ambito": "general",
+      "sha256": "c371635454947d18845a17f4fb58c4114ae1ccc0bf20d55166d443b58104dd05"
+    },
+    "POL-MFA-02": {
+      "funcion": "exclusion",
+      "ambito": "general",
+      "sha256": "c9e37e41676d9472bf9d1d147da89178b7307699f769d1762c68cd0bc10707cf"
+    },
+    "POL-MFA-03": {
+      "funcion": "cobertura",
+      "ambito": "general",
+      "sha256": "90bb3c914780e294116bbd3ee99717bb4bd22fc88dc5785867bee7966ea363fc"
+    },
+    "POL-MFA-04": {
+      "funcion": "requisito_mfa",
+      "ambito": "contratistas",
+      "sha256": "160c903b6a4da034b07d186f759d0bd0ca1312cd96e8f261e43b81ee33fb1ef9"
+    }
+  }
+}

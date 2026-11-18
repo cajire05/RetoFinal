@@ -1,0 +1,51 @@
+[
+  {
+    "id": "C1",
+    "ambito": "todas",
+    "pregunta": "¿Cuántas cuentas activas de toda la organización incumplen la política de MFA?",
+    "esperado": {"estado": "incumple", "sin_mfa": 4},
+    "citas_requeridas": ["CSV-MFA", "POL-MFA-01"],
+    "citas_admitidas": ["POL-MFA-02"]
+  },
+  {
+    "id": "C2",
+    "ambito": "finanzas",
+    "pregunta": "¿Cuántas cuentas activas de Finanzas están sin MFA? Excluye las cuentas inactivas.",
+    "esperado": {"estado": "incumple", "sin_mfa": 1},
+    "citas_requeridas": ["CSV-MFA", "POL-MFA-01"],
+    "citas_admitidas": ["POL-MFA-02"]
+  },
+  {
+    "id": "C3",
+    "ambito": "ti",
+    "pregunta": "¿Cumplen las cuentas activas de TI la política de MFA? Indica el número de cuentas sin MFA.",
+    "esperado": {"estado": "cumple", "sin_mfa": 0},
+    "citas_requeridas": ["CSV-MFA", "POL-MFA-01"],
+    "citas_admitidas": ["POL-MFA-02"]
+  },
+  {
+    "id": "C4",
+    "ambito": "soporte",
+    "pregunta": "¿Cuántas cuentas activas de Soporte no tienen MFA y cuál es el hallazgo?",
+    "esperado": {"estado": "incumple", "sin_mfa": 2},
+    "citas_requeridas": ["CSV-MFA", "POL-MFA-01"],
+    "citas_admitidas": []
+  },
+  {
+    "id": "C5",
+    "ambito": "recursos humanos",
+    "pregunta": "¿Hay evidencia de cobertura en Recursos Humanos? ¿Cuántas cuentas activas están sin MFA?",
+    "esperado": {"estado": "evidencia_insuficiente", "sin_mfa": null},
+    "citas_requeridas": ["CSV-MFA", "POL-MFA-03"],
+    "citas_admitidas": ["POL-MFA-01"]
+  },
+  {
+    "id": "C6",
+    "ambito": "contratistas",
+    "pregunta": "En la auditoría de MFA de cuentas activas de contratistas, ¿cuántas cuentas activas de contratistas están sin MFA?",
+    "esperado": {"estado": "incumple", "sin_mfa": 1},
+    "citas_requeridas": ["CSV-MFA", "POL-MFA-04"],
+    "citas_admitidas": ["POL-MFA-01"],
+    "fragmento_senuelo": "SENUELO-01"
+  }
+]

@@ -1,0 +1,12 @@
+cuenta,ambito,activa,mfa
+fin-01,finanzas,si,si
+fin-02,finanzas,si,no
+fin-03,finanzas,no,no
+ti-01,ti,si,si
+ti-02,ti,si,si
+ti-03,ti,no,no
+sop-01,soporte,si,no
+sop-02,soporte,si,no
+sop-03,soporte,si,si
+ext-01,contratistas,si,si
+ext-02,contratistas,si,no
