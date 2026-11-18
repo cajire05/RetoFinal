@@ -1,5 +1,10 @@
 # Auditoría de MFA con Ollama
 
+## Integrantes
+
+- Cesar Jimenez — A00401283
+- Esue Torres — A00401225
+
 Prototipo universitario que consulta políticas ficticias y un inventario simulado de cuentas. Audita cuentas activas, presenta los hallazgos con citas y señala si falta evidencia para determinar el cumplimiento o el conteo exacto. Usa Python 3.10 o posterior y la API HTTP local de Ollama. Solo requiere la biblioteca estándar de Python.
 
 - [Diagrama y riesgos del diseño](docs/arquitectura.md)
